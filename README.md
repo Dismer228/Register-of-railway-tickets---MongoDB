@@ -14,7 +14,6 @@ Request Body:
 
 {
   "startingStopName": "string", 
-  
   "endStopName": "string" 
 }
 
