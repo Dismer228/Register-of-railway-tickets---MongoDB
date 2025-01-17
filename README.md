@@ -18,7 +18,9 @@ Request Body:
 
 Response: 
 • 200 OK: Returns the reservation details. 
+
 { 
+
     "reservation": { 
         "reservationId": "string", 
         "startingStop": "string", 
@@ -27,6 +29,7 @@ Response:
         "routeName": "string", 
         "reservedAt": "datetime" 
     } 
+    
 } 
 • 400 Bad Request: Missing required fields. 
 • 404 Not Found: Stops not found or no routes available.
