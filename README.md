@@ -10,7 +10,7 @@ Response:
 # /preview_ticket (POST)
 Calculates the ticket price and reserves a ticket for a specific route between two 
 stops.
-• Request Body: 
+Request Body: 
 { 
   "startingStopName": "string", 
   "endStopName": "string" 
