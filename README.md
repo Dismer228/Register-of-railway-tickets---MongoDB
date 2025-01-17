@@ -12,8 +12,11 @@ Calculates the ticket price and reserves a ticket for a specific route between t
 stops.
 Request Body: 
 
+{
   "startingStopName": "string", 
+  
   "endStopName": "string" 
+}
 
 Response: 
 • 200 OK: Returns the reservation details. 
